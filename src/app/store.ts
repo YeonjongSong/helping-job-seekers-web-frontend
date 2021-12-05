@@ -1,9 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import examReducer from '../features/exam/examSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    exam: examReducer,
   },
 });
 
